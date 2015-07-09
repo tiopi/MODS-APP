@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:10:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:10:11
+	package
+		ADDED from AndroidManifest.xml:11:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:13:7
+	android:versionCode
+		ADDED from AndroidManifest.xml:12:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:14:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:14:41
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:14:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:15:5
+	android:label
+		ADDED from AndroidManifest.xml:16:11
+	android:debuggable
+		ADDED from AndroidManifest.xml:17:11
+	android:icon
+		ADDED from AndroidManifest.xml:15:18
+activity#org.example.sudoku.Sudoku
+ADDED from AndroidManifest.xml:18:9
+	android:label
+		ADDED from AndroidManifest.xml:19:15
+	android:name
+		ADDED from AndroidManifest.xml:18:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:20:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:21:17
+	android:name
+		ADDED from AndroidManifest.xml:21:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:22:17
+	android:name
+		ADDED from AndroidManifest.xml:22:27
+activity#org.example.sudoku.About
+ADDED from AndroidManifest.xml:25:9
+	android:label
+		ADDED from AndroidManifest.xml:26:15
+	android:theme
+		ADDED from AndroidManifest.xml:27:15
+	android:name
+		ADDED from AndroidManifest.xml:25:19
+activity#org.example.sudoku.Prefs
+ADDED from AndroidManifest.xml:29:9
+	android:label
+		ADDED from AndroidManifest.xml:30:15
+	android:name
+		ADDED from AndroidManifest.xml:29:19

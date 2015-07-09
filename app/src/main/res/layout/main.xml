@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@color/background"
+   android:gravity="center|top"
+   android:padding="30dip">
+   <TextView
+      android:text="@string/main_title"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+       android:textSize="50sp"
+       android:id="@+id/Title"
+       android:textColor="@color/text"
+       android:typeface="normal"
+       android:textIsSelectable="false"
+       android:gravity="center"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true" />
+
+    <Button
+       android:id="@+id/Bubbles"
+       android:layout_width="153dp"
+       android:layout_height="60dp"
+       android:text="@string/new_game_label"
+        android:layout_column="13"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/text"
+        android:textColor="@color/background"/>
+
+    <Button
+       android:id="@+id/Orange_Tree"
+       android:layout_width="153dp"
+       android:layout_height="60dp"
+       android:text="@string/exit_label"
+        android:layout_column="19"
+        android:gravity="center"
+        android:layout_below="@+id/Bubbles"
+        android:layout_alignLeft="@+id/Ambulance"
+        android:layout_marginTop="42dp"
+        android:background="@color/text"
+        android:textColor="@color/background"/>
+
+    <Button
+      android:id="@+id/Ambulance"
+      android:layout_width="153dp"
+      android:layout_height="60dp"
+      android:text="@string/continue_label"
+        android:layout_column="13"
+        android:gravity="center"
+        android:background="@color/text"
+        android:textColor="@color/background"
+        android:layout_above="@+id/Bubbles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp" />
+
+    <Button
+       android:id="@+id/Benches"
+       android:layout_width="153dp"
+       android:layout_height="60dp"
+       android:text="@string/about_label"
+        android:layout_column="19"
+        android:layout_alignTop="@+id/Bubbles"
+        android:layout_alignParentRight="true"
+        android:background="@color/text"
+        android:textColor="@color/background"/>
+
+</RelativeLayout>
